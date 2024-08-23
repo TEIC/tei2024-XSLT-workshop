@@ -1,9 +1,9 @@
 ## Navigating and Processing Data from the TEI with XSLT
 
 Welcome to our virtual workshop! Your hosts are an international team: 
-* [Elisa Beshero-Bondar](https://github.com/ebeshero) (Professor of Digital Humanities, Digital Media, Arts, and Technology, Penn State Erie, The Behrend College, USA). 
-* [Martina Scholger](https://github.com/martinascholger) (Senior Scientist, Department of Digital Humanities, University of Graz, Austria). 
-* [Gustavo Riva](https://github.com/GusRiva) (Senior Scientist, University Library, Heidelberg University, Germany)
+* [Elisa Beshero-Bondar](https://github.com/ebeshero) (Professor of Digital Humanities @ Digital Media, Arts, and Technology program, Penn State Erie, The Behrend College, USA). 
+* [Martina Scholger](https://github.com/martinascholger) (Senior Scientist @ Department of Digital Humanities, University of Graz, Austria). 
+* [Gustavo Riva](https://github.com/GusRiva) (Senior Scientist @ University Library, Heidelberg University, Germany)
 
 We are coordinating together to help test how well TEI and XSLT can connect the encoding and processing of documents across language and cultural differences.  
 
