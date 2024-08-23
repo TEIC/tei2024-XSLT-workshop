@@ -1,9 +1,9 @@
 ## Navigating and Processing Data from the TEI with XSLT
 
 Welcome to our virtual workshop! Your hosts are an international team: 
-* [Elisa Beshero-Bondar](https://github.com/ebeshero) (Penn State Erie, in Erie, PA, USA: US Eastern Daylight TimeZone). 
-* [Martina Scholger](https://github.com/martinascholger) (Centre for Information Modelling - Austrian Centre for Digital Humanities, University of Graz: Central European TimeZone). 
-* [Kiyonori Nagasaki](https://github.com/kiyonoriNagasaki) (International Institute for Digital Humanities in Tokyo: Japan Standard TimeZone)
+* [Elisa Beshero-Bondar](https://github.com/ebeshero) (Penn State Erie, USA). 
+* [Martina Scholger](https://github.com/martinascholger) (Centre for Information Modelling - Austrian Centre for Digital Humanities, University of Graz). 
+* [Gustavo Riva](https://github.com/GusRiva) (Heidelberg University, Germany)
 
 We are coordinating together to help test how well TEI and XSLT can connect the encoding and processing of documents across language and cultural differences.  
 
