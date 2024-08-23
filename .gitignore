@@ -1,0 +1,15 @@
+# Mac / Windows OS system generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# Oxygen project files
+*.xpr
+
+# Python / Pycharm project environment files
+.idea/workspace.xml
+.env/
+.idea/
+venv/
+__pycache__

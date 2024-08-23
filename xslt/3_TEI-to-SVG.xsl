@@ -8,8 +8,13 @@
     
     <xsl:output method="xml" indent="yes"/>
     
-   <!-- ebb: This will plot an SVG that reads the Spanish letter file and outputs a value for each 
+   <!-- ebb: This will plot an SVG that reads the Spanish linguistics-markup letter file and outputs a value for each 
    part of speech and its percentage representation among all the words in the letter. 
+   
+   Input: es_PS4000-TEIP5.xml
+   
+   Output: 
+   
    -->
     
     <xsl:variable name="spanishLetter" as="document-node()" select="doc('../xml/es_PS4000-TEIP5.xml')"/>
