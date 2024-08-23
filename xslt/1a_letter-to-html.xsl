@@ -10,7 +10,7 @@
    Notice how the xpath-default-namespace and the xmlns attributes are defined in the XSLT root element! 
    This is very important because they define the namespace of the input and the output files.
    
-    Run this on the es letter, and then one of the other letters (like 1819-01-10-MaryWebb.xml) to compare output.
+    Run this on the Spanish linguistics letter (es_PS4000-TEIP5.xml), and then one of the other letters (like 1819-01-10-MaryWebb.xml) to compare output.
     -->
     
         <xsl:output method="xhtml" html-version="5" indent="yes"/>

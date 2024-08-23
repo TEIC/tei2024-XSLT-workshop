@@ -6,18 +6,24 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
     
+    <!-- This XSLT outputs and HTML file with data formatted for a Google pie chart
+    Input: xml/es_PS4000-TEIP5.xml
+    
+    Output: output/letter-to-pieChart.html
+    -->
+    
     <xsl:output method="xhtml" html-version="5" indent="yes"></xsl:output>
     
     
     <xsl:variable name="spanishLetter" as="document-node()" select="doc('../xml/es_PS4000-TEIP5.xml')"/>
     
-    <xsl:variable name="wordCount" as="xs:integer" select="//w => count()"/>
+    <xsl:variable name="wordCount" as="xs:integer" select="$spanishLetter//w => count()"/>
     
     <xsl:variable name="countTypes" as="xs:integer">
-        <xsl:value-of select="//w/@pos ! normalize-space() => distinct-values() => count()"/>
+        <xsl:value-of select="$spanishLetter//w/@pos ! normalize-space() => distinct-values() => count()"/>
     </xsl:variable>
     
-   <xsl:variable name="wordTypes" as="xs:string+" select="//w/@pos ! normalize-space() => distinct-values()"/>
+   <xsl:variable name="wordTypes" as="xs:string+" select="$spanishLetter//w/@pos ! normalize-space() => distinct-values()"/>
     
     
     

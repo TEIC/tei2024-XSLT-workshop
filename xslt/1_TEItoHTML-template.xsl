@@ -6,6 +6,9 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
     
+    <!-- 2024-08-23 We can begin by processing the Spanish linguistics letter (es_PS4000-TEIP5.xml), since we will
+    be working with this file throughout the workshop. -->
+    
     <xsl:output method="xhtml" html-version="5" indent="yes"/>
     
     <xsl:template match="/">

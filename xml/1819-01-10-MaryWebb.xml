@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
+<!--<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
 type="application/xml" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
 type="application/xml" 
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
+schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    
   <teiHeader>
@@ -138,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <!-- 2022-07-24 ebb: BACK LIST HOLDING PROSOPOGRAPHY ENTRIES RELEVANT TO THIS LETTER, PULLED FROM https://digitalmitford.org/si.xml. -->
  <div>
     <listPerson sortKey="Mitford_Team">
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="lmw">
+      <person xml:id="lmw">
          <persName>
             <surname>Wilson</surname>
             <forename>Lisa</forename>
@@ -174,7 +174,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </person>
    </listPerson>
    <listOrg sortKey="archives">
-      <org xmlns="http://www.tei-c.org/ns/1.0" xml:id="ReadingCL">
+      <org xml:id="ReadingCL">
          <orgName>Reading Central Library</orgName>
          <note resp="#ghb">The principal archive of Mary Russell Mitford’s personal papers and
             related documents, holding approximately 1,000 manuscripts and a nearly comprehensive
@@ -182,7 +182,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </org>
    </listOrg>
    <listPerson sortKey="Past_Assistants">
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ncl">
+      <person xml:id="ncl">
          <persName>
             <surname>LoRusso</surname>
             <forename>Natalie </forename>
@@ -208,19 +208,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </person>
    </listPerson>
    <listOrg sortKey="histOrgs">
-      <org xmlns="http://www.tei-c.org/ns/1.0" xml:id="Americans">
+      <org xml:id="Americans">
          <orgName>Americans</orgName>
          <note resp="#ebb">People of the former British colonies recently become the United States
             in Mitford’s day, or more generally of North America.</note>
       </org>
-      <org xmlns="http://www.tei-c.org/ns/1.0" xml:id="Parfitt_family">
+      <org xml:id="Parfitt_family">
          <!--LMW stub-->
          <orgName>the Parfitt family</orgName>
          <orgName>the Parfitts</orgName>
       </org>
    </listOrg>
    <listPerson sortKey="histPersons">
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Bacon" sex="m">
+      <person xml:id="Bacon" sex="m">
          <persName>Sir Francis Bacon</persName>
          <persName>
             <forename>Francis</forename>
@@ -262,7 +262,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/31992319"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Birkbeck_M" sex="m">
+      <person xml:id="Birkbeck_M" sex="m">
          <persName>Morris Birkbeck</persName>
          <persName>
             <forename>Morris</forename>
@@ -297,7 +297,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/19849972"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Brown_Thos" sex="m">
+      <person xml:id="Brown_Thos" sex="m">
          <persName>Thomas Browne</persName>
          <persName>
             <surname>Browne</surname>
@@ -328,7 +328,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/61539796"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Brunton_Alexander" sex="m">
+      <person xml:id="Brunton_Alexander" sex="m">
          <persName>Alexander Brunton</persName>
          <persName>
             <forename>Alexander</forename>
@@ -361,7 +361,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ptr target="https://commons.wikimedia.org/wiki/File:AlexanderBruntonJWGordon.jpg"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Brunton_Mary" sex="f">
+      <person xml:id="Brunton_Mary" sex="f">
          <persName>Mary Balfour Brunton</persName>
          <persName>
             <forename>Mary</forename>
@@ -387,7 +387,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="https://commons.wikimedia.org/wiki/File:MaryBrunton.jpg"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Burke_E" sex="m">
+      <person xml:id="Burke_E" sex="m">
          <persName>Edmund Burke</persName>
          <persName>
             <forename>Edmund</forename>
@@ -420,7 +420,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/100173535"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Byron" sex="m">
+      <person xml:id="Byron" sex="m">
          <persName>George Gordon, Lord Byron</persName>
          <persName>
             <surname>Byron</surname>
@@ -452,7 +452,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://lordbyron.org/"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Chaucer" sex="m">
+      <person xml:id="Chaucer" sex="m">
          <persName>Geoffrey Chaucer</persName>
          <persName>
             <forename>Geoffrey</forename>
@@ -474,7 +474,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/100185203"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Coffin_Mrs" sex="f">
+      <person xml:id="Coffin_Mrs" sex="f">
          <persName>Mrs. Coffin</persName>
          <persName>
             <surname type="married">Coffin</surname>
@@ -489,7 +489,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Dickinson</persName>. Forename unidentified. Needs additional
             research.<!--LMW:  letter MRM2014--></note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Coleridge_ST" sex="m">
+      <person xml:id="Coleridge_ST" sex="m">
          <persName>Samuel Taylor Coleridge</persName>
          <persName>
             <surname>Coleridge</surname>
@@ -515,7 +515,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/24599809"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Crowther_Mr" sex="m">
+      <person xml:id="Crowther_Mr" sex="m">
          <persName>Mr. Crowther </persName>
          <persName>
             <surname>Crowther</surname>
@@ -542,7 +542,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Library</orgName>. <!--scw: See photo DSCN1167--></p>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Dante" sex="m">
+      <person xml:id="Dante" sex="m">
          <persName>Dante</persName>
          <persName>
             <forename>Durante</forename>
@@ -566,7 +566,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/97105654"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="DeJoinville" sex="m">
+      <person xml:id="DeJoinville" sex="m">
          <persName>Jean de Joinville</persName>
          <persName>
             <forename>Jean</forename>
@@ -585,7 +585,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/59191609/"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Dickinson_Charles" sex="m">
+      <person xml:id="Dickinson_Charles" sex="m">
          <persName>Charles Dickinson</persName>
          <persName>
             <surname>Dickinson</surname>
@@ -617,7 +617,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/53121533"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Dickinson_Mrs" sex="f">
+      <person xml:id="Dickinson_Mrs" sex="f">
          <persName>Mrs. Dickinson</persName>
          <persName>
             <forename>Catherine</forename>
@@ -642,7 +642,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                corresp="#Lestrange_Letters">L'Estrange</bibl>).
             <!-- LMW: Content OK. checked 2019-07-28--></note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Fearon_HB" sex="m">
+      <person xml:id="Fearon_HB" sex="m">
          <persName>Henry Bradshaw Fearon</persName>
          <persName>
             <forename>Henry</forename>
@@ -666,7 +666,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/2817066"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Fletcher_John" sex="m">
+      <person xml:id="Fletcher_John" sex="m">
          <persName>John Fletcher</persName>
          <persName>
             <surname>Fletcher</surname>
@@ -690,7 +690,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/12323361"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Franklin_Ben" sex="m">
+      <person xml:id="Franklin_Ben" sex="m">
          <persName>Benjamin Franklin</persName>
          <persName>
             <forename>Benjamin</forename>
@@ -726,7 +726,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/56609913"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Froissart" sex="m">
+      <person xml:id="Froissart" sex="m">
          <persName>Jean Froissart</persName>
          <persName>
             <forename>Jean</forename>
@@ -749,7 +749,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/100178580"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Handel" sex="m">
+      <person xml:id="Handel" sex="m">
          <persName>George Frederick Handel</persName>
          <persName>
             <forename>George</forename>
@@ -770,7 +770,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/5126950"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hazlitt_Wm" sex="m">
+      <person xml:id="Hazlitt_Wm" sex="m">
          <persName>William Hazlitt</persName>
          <persName>
             <surname>Hazlitt</surname>
@@ -813,7 +813,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/87145187"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Homer" sex="m">
+      <person xml:id="Homer" sex="m">
          <persName>Homer</persName>
          <floruit when="-0700">
             <placeName>Melesigenes, Smyrna</placeName>
@@ -830,7 +830,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/101739509"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hunt" sex="m">
+      <person xml:id="Hunt" sex="m">
          <persName>Leigh Hunt</persName>
          <persName>
             <forename>James</forename>
@@ -851,7 +851,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/54166412"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Keats" sex="m">
+      <person xml:id="Keats" sex="m">
          <persName>John Keats</persName>
          <persName>
             <surname>Keats</surname>
@@ -880,7 +880,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/66508882"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Lamb_Chas" sex="m">
+      <person xml:id="Lamb_Chas" sex="m">
          <persName>Charles Lamb</persName>
          <persName>
             <surname>Lamb</surname>
@@ -907,7 +907,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/64007908"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Liston_John" sex="m">
+      <person xml:id="Liston_John" sex="m">
          <persName>John Liston</persName>
          <persName>
             <surname>Liston</surname>
@@ -933,7 +933,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/3915614"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Mahomet" sex="m">
+      <person xml:id="Mahomet" sex="m">
          <persName>Mahomet</persName>
          <persName>
             <addName>Muhammad</addName>
@@ -955,14 +955,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/97245226"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Miranda_pet" sex="f">
+      <person xml:id="Miranda_pet" sex="f">
          <persName>Miranda</persName>
          <note resp="#lmw">A greyhound owned by <persName ref="#MRM">Mitford</persName>, described
             by her as <quote>blue all sprinkled with little white spots just like a starry
                night</quote> in her <date when="1819-02-13">13 February 1819</date> letter to
                <persName ref="#Haydon"/>Haydon.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Mitford_Geo" sex="m">
+      <person xml:id="Mitford_Geo" sex="m">
          <persName>George Mitford</persName>
          <persName>
             <forename>George</forename>
@@ -1014,7 +1014,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!--No VIAF #-->
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Mossy_pet">
+      <person xml:id="Mossy_pet">
          <persName>
             <forename>Mossy</forename>
          </persName>
@@ -1023,7 +1023,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <q>Mossy</q> was a nickname for <q>Moss Trooper.</q>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="MRM" sex="f">
+      <person xml:id="MRM" sex="f">
          <persName>
             <surname type="paternal">Mitford</surname>
             <forename>Mary</forename>
@@ -1067,7 +1067,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/19709107"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Parfitt_Jos" sex="m">
+      <person xml:id="Parfitt_Jos" sex="m">
          <persName>Joseph Parfitt</persName>
          <persName>
             <forename>Joseph</forename>
@@ -1078,7 +1078,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             in a letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName> of <date
                when="1819-01-10">January 10, 1819</date>. More research needed.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Parfitt_Sarah" sex="f">
+      <person xml:id="Parfitt_Sarah" sex="f">
          <persName>Sarah Parfitt</persName>
          <persName>
             <forename>Sarah</forename>
@@ -1089,7 +1089,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                ref="#Webb_Mary_younger">Mary Webb</persName> of <date when="1819-01-10">January 10,
                1819</date>. More research needed.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Peacock_TL" sex="m">
+      <person xml:id="Peacock_TL" sex="m">
          <persName>Thomas Love Peacock</persName>
          <persName>
             <forename>Thomas</forename>
@@ -1119,7 +1119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://www.thomaslovepeacock.net"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Pulci" sex="m">
+      <person xml:id="Pulci" sex="m">
          <persName>Luigi Pulci</persName>
          <persName>
             <forename>Luigi</forename>
@@ -1138,7 +1138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/71453100"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Rowden_Fr" sex="f">
+      <person xml:id="Rowden_Fr" sex="f">
          <persName>Frances Rowden St. Quintin</persName>
          <persName>
             <surname type="paternal">Rowden</surname>
@@ -1178,7 +1178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/57349006"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Sevigne_Mad" sex="f">
+      <person xml:id="Sevigne_Mad" sex="f">
          <persName>Madame Sévigné</persName>
          <persName>
             <forename>Marie</forename>
@@ -1202,7 +1202,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/32002865"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Seward_Martha" sex="f">
+      <person xml:id="Seward_Martha" sex="f">
          <persName>Martha Seward</persName>
          <persName>
             <forename>Martha</forename>
@@ -1211,7 +1211,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <note resp="#lmw">An acquaintance of <persName ref="#Webb_Mary_younger">Mary
                Webb</persName>. Needs additional research.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Shakespeare" sex="m">
+      <person xml:id="Shakespeare" sex="m">
          <persName>William Shakespeare</persName>
          <persName>
             <surname>Shakespeare</surname>
@@ -1241,7 +1241,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/96994048"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Taylor_Jer" sex="m">
+      <person xml:id="Taylor_Jer" sex="m">
          <persName>Jeremy Taylor</persName>
          <persName>
             <forename>Jeremy</forename>
@@ -1259,7 +1259,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/329566831"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Walton_I" sex="m">
+      <person xml:id="Walton_I" sex="m">
          <persName>Izaak Walton</persName>
          <persName>
             <forename>Izaak</forename>
@@ -1281,7 +1281,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/73863052"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Washington_Geo" sex="m">
+      <person xml:id="Washington_Geo" sex="m">
          <persName>George Washington</persName>
          <persName>
             <forename>George</forename>
@@ -1310,7 +1310,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://viaf.org/viaf/31432428"/>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Webb_Eliza" sex="f">
+      <person xml:id="Webb_Eliza" sex="f">
          <persName>Eliza Webb</persName>
          <persName>
             <surname type="paternal">Webb</surname>
@@ -1339,7 +1339,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   >Roberts</persName> on <date when="1953-11-27">November 27, 1953</date>
             </rs>. </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Webb_James" sex="m">
+      <person xml:id="Webb_James" sex="m">
          <persName>James Webb</persName>
          <persName>
             <surname>Webb</surname>
@@ -1368,7 +1368,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   >Reading Central Library</orgName>
             </bibl>. </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Webb_John" sex="m">
+      <person xml:id="Webb_John" sex="m">
          <persName>John Webb</persName>
          <persName>
             <forename>John</forename>
@@ -1380,7 +1380,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <note resp="#lmw">Likely <q>Uncle John,</q> uncle to Eliza and Mary Webb and younger
             brother to James Webb.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Webb_Mary_elder" sex="f">
+      <person xml:id="Webb_Mary_elder" sex="f">
          <persName>Aunt Mary Webb</persName>
          <persName>
             <surname>Webb</surname>
@@ -1405,7 +1405,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </bibl>. Relationship to other Webbs and birth and death dates unknown. More research
             needed.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Webb_Mary_younger" sex="f">
+      <person xml:id="Webb_Mary_younger" sex="f">
          <persName>Mary Webb</persName>
          <persName>
             <surname type="paternal">Webb</surname>
@@ -1429,7 +1429,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             sister Eliza Webb Walter and her husband Henry Walter. Date of death unknown. More
             research needed.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wheeler_Kate" sex="f">
+      <person xml:id="Wheeler_Kate" sex="f">
          <persName>
             <forename>Kate</forename>
             <surname>Wheeler</surname>
@@ -1442,13 +1442,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </person>
    </listPerson>
    <listPerson sortKey="archPersons">
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Selim_pet" sex="m">
+      <person xml:id="Selim_pet" sex="m">
          <persName>Selim</persName>
          <note resp="#lmw #ncl">Mitford's ferocious white cat.</note>
       </person>
    </listPerson>
    <listPerson sortKey="fictPersons">
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Cypress_Mr" sex="m">
+      <person xml:id="Cypress_Mr" sex="m">
          <persName>Mr. Cypress</persName>
          <note resp="#lmw">Character in <persName ref="#Peacock_TL">Peacock</persName>’s <title
                ref="#NightmareAbbey">Nightmare Abbey</title>. Identified by <persName ref="#MRM"
@@ -1458,7 +1458,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             from the Greek philoskios (φιλοσκιος), <quote>a lover, or sectator, of shadows.</quote>
          </note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Flosky" sex="m">
+      <person xml:id="Flosky" sex="m">
          <persName>
             <forename>Ferdinando</forename>
             <surname>Flosky</surname>
@@ -1469,7 +1469,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                >Byron</persName>. Much of his misanthropical conversation is taken from the fourth
             canto of <title ref="#ChildeHaroldsPil">Childe Harold</title>.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Grizzle_Lord" sex="m">
+      <person xml:id="Grizzle_Lord" sex="m">
          <persName>
             <forename>Lord Grizzle</forename>
          </persName>
@@ -1478,7 +1478,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Grizzle in a <placeName ref="#Haymarket_Theatre">Haymarket</placeName> production in
                <date when="1810">1810</date>.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Sancho_Panza" sex="m">
+      <person xml:id="Sancho_Panza" sex="m">
          <persName>
             <forename>Sancho</forename>
             <surname>Panza</surname>
@@ -1487,7 +1487,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                ref="#Don_Quixote_char">Don Quixote</persName> in his service, from <title
                ref="#Don_Quixote_novel">Don Quixote</title>.</note>
       </person>
-      <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ugolino" sex="m">
+      <person xml:id="Ugolino" sex="m">
          <persName>
             <forename>Count Ugolino</forename>
          </persName>
@@ -1496,7 +1496,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </person>
    </listPerson>
    <listPlace sortKey="histPlaces">
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Bertram_house">
+      <place xml:id="Bertram_house">
          <placeName>Bertram House, Berkshire, England</placeName>
          <settlement>Grazeley</settlement>
          <region>Berkshire</region>
@@ -1519,7 +1519,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Bertram House in <date when="1820-04">April 1820</date>, after financial reverses forced
             the family to sell the property.</note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Haymarket_Theatre">
+      <place xml:id="Haymarket_Theatre">
          <placeName>Theatre Royal Haymarket, Westminster, London, England</placeName>
          <placeName>
             <addName>Haymarket Theatre</addName>
@@ -1544,7 +1544,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ref target="http://www.trh.co.uk/"/>
          </note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="London_city">
+      <place xml:id="London_city">
          <placeName>London, England</placeName>
          <settlement>London</settlement>
          <country>England</country>
@@ -1556,7 +1556,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <date from="1831" to="1925">From 1831 to 1925</date>, the largest city in the
             world.</note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Mint_new">
+      <place xml:id="Mint_new">
          <placeName>New Mint, Little Tower Hill, London, England</placeName>
          <district>Tower Hill</district>
          <region>London</region>
@@ -1578,7 +1578,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             />
          </note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Portsmouth_Blockhouses">
+      <place xml:id="Portsmouth_Blockhouses">
          <placeName>Portsmouth Blockhouses</placeName>
          <location>
             <geo>50.800531 -1.109465900000032</geo>
@@ -1589,7 +1589,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Mills were the site of the world’s first mass production line and used all-metal machine
             tools.</note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Reading_city">
+      <place xml:id="Reading_city">
          <placeName>Reading, Berkshire, England</placeName>
          <settlement>Reading</settlement>
          <region>Berkshire</region>
@@ -1613,7 +1613,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                >Reading</placeName> as the basis for <title ref="#Belford_Regis">Belford Regis; or
                Sketches of a Country Town</title>.</note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Sloane_St">
+      <place xml:id="Sloane_St">
          <placeName>Sloane Street, Kensington, London, England</placeName>
          <district>Kensington</district>
          <region>London</region>
@@ -1626,7 +1626,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Square. Sloane Street takes its name from Sir Hans Sloane, who purchased the surrounding
             area in <date when="1712">1712</date>.</note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="USA">
+      <place xml:id="USA">
          <placeName>United States of America</placeName>
          <country>United States of America</country>
          <location>
@@ -1636,49 +1636,51 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </place>
    </listPlace>
    <listPlace sortKey="fictPlaces">
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Brobdingnag">
+      <place xml:id="Brobdingnag">
          <placeName>Brobdingnag</placeName>
          <note resp="#ncl #lmw">Fictional country populated by giantsin <persName ref="#Swift_J"
                >Swift</persName>’s novel <title ref="#GulliversTr_JS">Gulliver’s
             Travels</title>.</note>
       </place>
-      <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="Island_Barataria">
+      <place xml:id="Island_Barataria">
          <placeName>Barataria</placeName>
          <note resp="#ncl #lmw">Fictional island of which Sancho Panza is awarded governorship in
                <title ref="#Don_Quixote_novel">Don Quixote</title>.</note>
       </place>
    </listPlace>
    <list sortKey="plants">
-      <item xmlns="http://www.tei-c.org/ns/1.0" xml:id="lily_valley">
-         <!-- LMW: update entry format -->
+      <item xml:id="lily_valley">
          <name>lily of the valley</name>
-         <name>lily-of-the-valley</name>
          <name type="genus">Convallaria</name>
-         <name type="species">majalis</name>
-         <note resp="#lmw">Lily of the valley (sometimes written lily-of-the-valley), a scented
-            woodland flowering plant native to the cool temperate <placeName>Northern
-               Hemisphere</placeName> in <placeName>Asia</placeName> and
-               <placeName>Europe</placeName>. Its scientific name is Convallaria majalis. It was
-            previously classified as in its own family (Convallariaceae), and before that was
-            believed to be part of the Lily family (Liliaceae).</note>
+         <name type="species">Convallaria majalis</name>
+         <name type="family">Asparagaceae</name>
+         <note resp="#lmw">Scented woodland flowering plant native to the cool temperate
+            Northern Hemisphere. It was previously classified as in its own family (Convallariaceae), and before
+            that was believed to be part of the Lily family (Liliaceae).</note>
+         <note>
+            <ptr target="https://species.wikimedia.org/wiki/Convallaria_majalis"/>
+         </note>
+         <note>
+            <ptr target="https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/lily-of-the-valley/"/>
+         </note>
       </item>
-      <item xmlns="http://www.tei-c.org/ns/1.0" xml:id="woodsorrel">
-         <!-- LMW: update entry format -->
+      <item xml:id="woodsorrel">
          <name>wood sorrel</name>
-         <name>woodsorrel</name>
-         <name>wood-sorrel</name>
-         <name>Oxalis acetosella</name>
          <name type="genus">Oxalis</name>
-         <name type="species">acetosella</name>
-         <note resp="#lmw">Mitford likely refers to common wood sorrel, a member of the oxalis
-            family. It grows in mixed woodlands and bears a white flower. It is not related to <rs
-               type="plant">sorrel proper (Rumex acetosa)</rs>, although the two plants share an
-            acidic taste that may have led to the name.</note>
+         <name type="species">Oxalis acetosella</name>
+         <name type="family">Oxalidaceae</name>
+         <note resp="#lmw">Mitford likely refers to common wood sorrel, a member of the oxalis family, native to the Northern Hemisphere, including the UK. It grows in mixed woodlands and is a low-growing plant with heart-shaped trilobal leaves that bears white flowers in April and May. The plant is not related to sorrel proper (Rumex acetosa), although the two plants share an acidic taste that may have led to the similar name.</note>
+         <note>
+            <ptr target="https://species.wikimedia.org/wiki/Oxalis_acetosella"/>
+         </note>
+         <note>
+            <ptr target="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/wood-sorrel"/>
+         </note>
       </item>
    </list>
    <list sortKey="art">
       <item/>
-      <figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="Whereer_Handel" type="aria">
+      <figure xml:id="Whereer_Handel" type="aria">
          <bibl>
             <title level="a">Where’er You Walk</title>
             <author ref="#Handel"/>
@@ -1704,14 +1706,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <publisher>J. M. Dent &amp; Co.</publisher>
           <date>1903</date>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="ChildeHaroldsPil">
+       <bibl xml:id="ChildeHaroldsPil">
           <title level="m">Childe Harold’s Pilgrimage</title>
           <author ref="#Byron">Byron</author>
           <pubPlace ref="#London_city">London</pubPlace>
           <publisher>John Murray</publisher>
           <note resp="#lmw">Published in parts between 1812 and 1818.</note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Discipline">
+       <bibl xml:id="Discipline">
           <title level="m">Discipline: A Novel</title>
           <author ref="#Brunton_Mary">Mary Brunton</author>
           <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
@@ -1719,7 +1721,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <date when="1814">1814</date>
           <note resp="#lmw">First edition published anonymously.</note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Euro_Settlements_in_Am">
+       <bibl xml:id="Euro_Settlements_in_Am">
           <title level="m">An Account of the European Settlements in America, in six parts</title>
           <author>
              <persName ref="#Burke_E">Edmund Burke</persName>
@@ -1728,7 +1730,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <publisher>R. and J. Dodsley</publisher>
           <date when="1757"/>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="GulliversTr_JS">
+       <bibl xml:id="GulliversTr_JS">
           <author ref="#Swift_J">Jonathan Swift</author>
           <title level="m">Travels into Several Remote Nations of the World. In Four Parts. By Lemuel
              Gulliver, First a Surgeon, and then a Captain of Several Ships</title>
@@ -1739,7 +1741,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <pubPlace ref="#London_city">London</pubPlace>
           <publisher>Motte</publisher>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Inferno_Dante">
+       <bibl xml:id="Inferno_Dante">
           <title level="m">Inferno</title>
           <author>
              <persName ref="#Dante">Dante</persName>
@@ -1750,7 +1752,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              %h3 Divine Comedy. Scholars believe the Divine Comedy was completed in <date when="1420"
                 >1420</date>; it was first printed in .</note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="LecComic_WHaz">
+       <bibl xml:id="LecComic_WHaz">
           <title level="m">Lectures on the English Comic Writers, delivered at the Surry
              Institution</title>
           <author ref="#Hazlitt_Wm">William Hazlitt</author>
@@ -1763,7 +1765,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <date when="1819">1819</date>
           <note resp="#lmw">Spelled <q>Surry</q> on title page.</note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Lit_Pocket_Bk">
+       <bibl xml:id="Lit_Pocket_Bk">
           <title level="m">The Literary Pocket Book, or Companion for the Lover of Art and
              Nature</title>
           <author ref="#Hunt">Leigh Hunt</author>
@@ -1776,7 +1778,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              published of this almanac, published at the end of <date when="1818">1818</date> for
              <date when="1819">1819</date>, which she received as a gift from her father.</note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Melincourt">
+       <bibl xml:id="Melincourt">
           <title level="m">Melincourt</title>
           <author ref="#Peacock_TL">Thomas Love Peacock</author>
           <publisher>T. Hookham, Jr. &amp; co.</publisher>
@@ -1788,7 +1790,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              Hall.</q>
           </note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="NightmareAbbey">
+       <bibl xml:id="NightmareAbbey">
           <title level="m">Nightmare Abbey</title>
           <author ref="#Peacock_TL">Thomas Love Peacock</author>
           <publisher>T. Hookham, Jr.</publisher>
@@ -1799,7 +1801,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              Hall.</q>
           </note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Rhododaphne">
+       <bibl xml:id="Rhododaphne">
           <title level="m">Rhododaphne: Or, The Thessalian Spell: A Poem</title>
           <author ref="#Peacock_TL">Thomas Love Peacock</author>
           <publisher>T. Hookham, Jr.</publisher>
@@ -1807,7 +1809,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <pubPlace ref="#London_city">London</pubPlace>
           <date when="1818"/>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Self_Control">
+       <bibl xml:id="Self_Control">
           <title level="m">Self Control: A Novel</title>
           <author ref="#Brunton_Mary">Mary Brunton</author>
           <pubPlace ref="#Edinburgh">Edinburgh</pubPlace>
@@ -1815,7 +1817,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <date when="1811">1811</date>
           <note resp="#lmw">First edition published anonymously.</note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="Sketches_of_America">
+       <bibl xml:id="Sketches_of_America">
           <title level="m">Sketches of America: a Narrative of a Journey of Five Thousand Miles
              Through the Eastern and Western States of America; Contained in Eight Reports Addressed
              to the Thirty-nine English Families by whom the Author was Deputed, in June 1817, to
@@ -1860,7 +1862,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    <date>2008</date>: 117)</bibl>
              </cit>.</note>
        </bibl>
-       <bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="TomThumb_OHaraAdpt">
+       <bibl xml:id="TomThumb_OHaraAdpt">
           <author ref="#OHara_Kane">Kane O’Hara</author>
           <author ref="#Fielding_Henry">Henry Fielding</author>
           <bibl>

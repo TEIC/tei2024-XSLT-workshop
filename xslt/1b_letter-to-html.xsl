@@ -6,10 +6,11 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
     
-<!-- 2022-07-24 ebb: This XSLT is designed to read a collection of XML files. It will
-        output a separate HTML file for each TEI XML letter in our letters folder. 
-        You can run it in the XSLT debugger view by selecting any file at all as the XML source.
-        (We usually choose a file from within the collection.)
+<!-- 2022-07-24 ebb: This XSLT is designed to read a collection of XML files. 
+        It will output a separate HTML file for each TEI XML letter in our letters folder. 
+        You can run it in the XSLT debugger view by selecting any xml-formatted file at all as the XML source.
+        
+        Stored output: output/html-letters
     -->
     
 <!-- ebb: Uncomment if processing only one file, and remove the xsl:for-each in the template match on `/`. 
