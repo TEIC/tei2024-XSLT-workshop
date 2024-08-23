@@ -6,6 +6,8 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
     
+    <!-- 2024-08-23 Official workshop output is stored at output/letters-to-table.html  -->
+    
     <xsl:output method="xhtml" html-version="5" indent="yes"></xsl:output>
     
     <xsl:variable name="letters" as="document-node()+" select="collection('../xml/?select=*.xml')"/>
@@ -13,7 +15,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title></title>
+                <title>Correspondence Metadata Table for All the Letters</title>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
             </head>
             <body>

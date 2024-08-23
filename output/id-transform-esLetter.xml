@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="ps.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>[1542]. Carta de Pedro López de la Cañada, tañedor de vihuela, para su tío. Edición electrónica</title>
+				<sponsor>CLUL, Centro de Linguística da Universidade de Lisboa</sponsor>
+				<funder>ERC, European Research Council - 7FP/ERC Advanced Grant 2011 GA295562</funder>
+				<respStmt><resp>Proyecto</resp><name xml:id="PS">PS, Post Scriptum</name></respStmt> 
+				<respStmt><resp>Coordinación</resp><name xml:id="RM">Rita Marquilhas</name></respStmt> 
+				<respStmt><resp>Transcripción</resp><name xml:id="CSS">Carmen Serrano Sánchez</name></respStmt> 
+				<respStmt><resp>Anotación POS</resp><name>Gael Vaamonde</name></respStmt> 
+				<respStmt><resp>Parsing</resp><name>Rosabel San Segundo</name></respStmt> 
+				<respStmt><resp>Edición modernizada</resp><name xml:id="GV">Gael Vaamonde</name></respStmt> 
+				<respStmt><resp>Revisión</resp><name/></respStmt> 
+				<respStmt><resp>Palabras-clave</resp><name>Carmen Serrano Sánchez</name></respStmt> 
+				<respStmt><resp>Contextualización</resp><name>Carmen Serrano Sánchez</name></respStmt>
+			</titleStmt>
+			<publicationStmt> 
+				<publisher>CLUL, Centro de Linguística da Universidade de Lisboa</publisher> 
+				<address> 
+					<addrLine>Av. Professor Gama Pinto, 2</addrLine> 
+					<addrLine>1649-003 Lisboa-Portugal</addrLine>
+				</address> 
+				<pubPlace>Lisboa</pubPlace> 
+				<date when="2013">2013</date> 
+				<availability status="free"><p>Free download; CLUL is recognised as author by a set of ELRA licences</p></availability> 
+			</publicationStmt>
+			<sourceDesc>
+					<msDesc>
+						<msIdentifier>
+							<country>España</country>
+							<settlement>Madrid</settlement>
+							<institution ref="pscdd:AHN">Archivo Histórico Nacional</institution>
+							<repository xml:id="INQ">Inquisición</repository>
+							<collection>Tribunal de Distrito de la Inquisición de Toledo</collection>
+							<idno>Legajo 26, Expediente 18</idno>
+						</msIdentifier>
+						<msContents>
+							<summary>Pedro López de la Cañada informa a su tío de que se encuentra preso en la cárcel de Ocaña (Toledo) y le solicita que acuda a verle con el fin de que pueda salir libre.</summary>
+							<msItem>
+								<locus>10r-v</locus>
+								<textLang mainLang="es"/>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc form="letter">
+								<supportDesc>
+									<support>un folio de papel escrito por recto y verso.</support>
+									<extent>
+										<dimensions scope="all" unit="mm">
+											<height>295</height>
+											<width>195</width>
+										</dimensions>
+									</extent>
+									<condition><p>la encuadernación esconde el final de las líneas del folio 10v.</p></condition>
+								</supportDesc>
+								<layoutDesc>
+									<layout>cinco líneas en blanco entre la fórmula de saludo y el inicio del texto.</layout>
+								</layoutDesc>
+							</objectDesc>
+							<accMat>
+								<p><quote xml:lang="es" type="superscript" subtype="receiver"><figure><figDesc>cruz</figDesc></figure> <lb/> Al mui vertuoso <abbr>S</abbr> el <abbr>Sor</abbr> mi tio</quote></p>
+							</accMat>
+						</physDesc>
+						<additional>
+							<adminInfo>
+								<availability><p>Para hacer uso de las imágenes es necesaria la autorización del Archivo Histórico Nacional.</p></availability>
+							</adminInfo>
+							<surrogates>
+								<ref/>
+								<cit><bibl>facsímile digital guardado como fichero JPEG</bibl></cit>
+							</surrogates>
+						</additional>
+					</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc><p><ptr target="psodd:ps_projectDescEs"/></p></projectDesc>
+			<editorialDecl><p><ptr target="psodd:ps_editorialDeclEs"/></p></editorialDecl>
+			<listPrefixDef>
+				<prefixDef ident="psodd" matchPattern="(.+)" replacementPattern="ps_odd.xml#$1">
+					<p>El prefijo <mentioned>psodd</mentioned> remite al archivo externo <mentioned>ps_odd.xml</mentioned>. Esta remisión apunta a los apartados de ese archivo dedicados a la descripción general del proyecto, los criterios de edición y las taxonomías utilizadas, respectivamente.</p>
+				</prefixDef>
+				<prefixDef ident="pscdd" matchPattern="(.+)" replacementPattern="cdd.xml#$1">
+					<p>El prefijo <mentioned>pscdd</mentioned> remite al archivo externo <mentioned>cdd.xml</mentioned>, que incluye las fichas biográficas de los participantes y la lista completa de instituciones visitadas.</p>
+				</prefixDef>
+				<prefixDef ident="pskw" matchPattern="(.+)" replacementPattern="kw.xml#$1">
+					<p>El prefijo <mentioned>pskw</mentioned> remite al archivo externo <mentioned>kw.xml</mentioned>, que almacena en español, portugués e inglés el conjunto de palabras clave utilizadas para la clasificación sociohistórica de PS.</p>
+				</prefixDef>
+			</listPrefixDef>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<catRef scheme="psodd:ps_type" target="psodd:family"/>
+				<catRef scheme="psodd:ps_pragmatics" target="psodd:request"/>
+				<catRef scheme="psodd:ps_linguisticSource"/>
+				<classCode scheme="psodd:ps_balancedSelection">0</classCode>
+				<keywords>
+					<term n="1" key="KW.xml#K59">Correo</term>
+					<term n="2" key="KW.xml#K60">Correspondencia</term>
+					<term n="3" key="KW.xml#K96">Escritura cifrada</term>
+					<term n="4" key="KW.xml#K134">Justicia</term>
+					<term n="5" key="KW.xml#K176">Prisión</term>
+					<term n="6" key="KW.xml#K233">Violación de correspondencia</term>
+				</keywords>
+			</textClass>
+			<creation/>
+			<correspDesc>
+				<correspAction type="sent">
+					<name type="person">Pedro López de la Cañada</name>
+					<location cert="0" type="origin">
+						<placeName>España, Toledo, Ocaña</placeName>
+						<geo>39.9569147 -3.4982579</geo>
+					</location>
+					<date cert="0" when="1542-11-28" when-custom="1542.11.28"/>
+				</correspAction>
+				<correspAction type="received">
+					<name type="person">Anónimo129</name>
+					<location cert="0" type="destination">
+						<placeName>España, Salamanca</placeName>
+						<geo/>
+					</location>
+				</correspAction>
+			</correspDesc>
+			<settingDesc><p>El reo de este proceso era Pedro López de la Cañada, músico y maestro de danza. Fue acusado por la Inquisición de Toledo del delito de bigamia por haberse casado dos veces: primero con Lucía de Aguirre en Salamanca hacia 1541 y después con María Alonso en Ocaña (Toledo) a mediados de 1542. Antes había contraído matrimonio con Ana de Osorio, pero el casamiento fue anulado. También se sospechaba que podía haberse casado con una joven de la corte, si bien este hecho no pudo probarse. Las cartas que Pedro López de la Cañada escribió a sus familiares fueron redactadas desde la cárcel real de Ocaña (Toledo), interceptadas antes de salir de prisión e incorporadas a su proceso como prueba. En ellas empleó un método de cifrado consistente en la sustitución de las vocales por una letra "p", sobre cuyo caído trazaba diversas rayas horizontales, de una a cinco, indicando con este número cuál era la vocal reemplazada. Finalmente, Pedro López de la Cañada fue condenado a abjurar de levi en auto público de fe y a una pena de destierro por dos años de la ciudad y arzobispado de Toledo.</p> <p>Bibliografía:</p> <p>Serrano Sánchez, Carmen (2014), "El hombre de los tres nombres: cartas de un músico bígamo ante el Santo Oficio", en Castillo Gómez, Antonio y Sierra Blas, Verónica (dirs.), Cartas - Lettres - Lettere. Discursos, prácticas y representaciones epistolares (siglos XIV-XX), Alcalá de Henares (Madrid), Universidad de Alcalá, pp. 349-364.</p>
+			</settingDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2013-03">Carmen Serrano Sánchez: Codificación XML y contexto situacional</change> 
+			<change when="2015-11">Fernanda Pratas: sumário e contexto em inglês</change> 
+			<change when="2016-03-04">Gael Vaamonde: Anotación POS</change> 
+			<change when="2016-10-01">Rosabel San Segundo: Anotación sintáctica</change>
+			<change xml:lang="en">							
+				<p xml:id="title">Family letter from Pedro López de la Cañada, musician, to his uncle.</p>
+				<p xml:id="summary">The author informs his uncle that he is being held in jail in Ocaña (Toledo), and asks him to go there soon and try to set him free.</p>
+				<p xml:id="context">Pedro López de la Cañada, musician, was accused of bigamy by the Inquisition of Toledo: he married a second time when his first wife was still alive. Even before that, he had gotten married to a different woman, but that marriage had been annulled. There was also the suspicion that he might have married another young woman, but this was never confirmed. The letters that he wrote to his family from the jail in Ocaña (Toledo) were intercepted and included in his Inquisition files as a proof of his crimes. In them, he used a code that consisted of replacing all the vowels by the letter "p" - over each false "p" he put one to five horizontal lines, thus signaling the vowel that was meant to be. He was later condemned to an "auto de fe" and to stay out of Toledo for two years.</p>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body><pb n="10r" facs="PS4000_2.JPG"/><lb break="yes"/>
+			<opener>
+				<salute>
+					<figure><figDesc>cruz</figDesc></figure>
+				</salute> <lb break="yes"/>
+				<salute>
+					<choice><abbr>Sor</abbr><expan>Señor</expan></choice> 
+					<choice><orig>tio</orig><reg>tío</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</salute>
+			</opener>
+			<p>
+				<s>
+					<choice><orig>la</orig><reg>La</reg></choice> 
+					presente 
+					es 
+					para 
+					<choice><orig>azer</orig><reg>hacer</reg></choice> 
+					saber 
+					a 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					como 
+					yo 
+					estoy 
+					y 
+					quedo 
+					preso 
+					en 
+					esta <lb break="yes"/> 
+					villa 
+					<choice><orig>d</orig><reg>de</reg></choice> 
+					<choice><orig>ocaña</orig><reg>Ocaña</reg></choice> 
+					por 
+					<choice><orig>ziertas</orig><reg>ciertas</reg></choice> 
+					<choice><orig>acusaziones</orig><reg>acusaciones</reg></choice> 
+					que 
+					me 
+					<choice><orig>an</orig><reg>han</reg></choice> 
+					puesto
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					para <lb break="yes"/> 
+					poderme
+						poder
+						me 
+					librar 
+					<choice><orig>d</orig><reg>de</reg></choice> 
+					ellas 
+					<choice><orig>eme</orig><reg>heme</reg></choice>
+						<choice><orig>e</orig><reg>he</reg></choice>
+						me 
+					llamado 
+					a 
+					la 
+					<choice><orig>corona</orig><reg>Corona</reg></choice> 
+					y 
+					<choice><orig>esta</orig><reg>está</reg></choice> 
+					ya 
+					para <lb break="yes"/> 
+					dar 
+					<choice><orig>sentenzia</orig><reg>sentencia</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>no</orig><reg>No</reg></choice> 
+					<choice><orig>se</orig><reg>sé</reg></choice> 
+					lo 
+					que 
+					<choice><orig>dios</orig><reg>Dios</reg></choice> 
+					<choice><orig>ara</orig><reg>hará</reg></choice> 
+					de 
+					<choice><orig>mi</orig><reg>mí</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					si 
+					me 
+					<choice><orig>Remitiran</orig><reg>remitirán</reg></choice> <lb break="yes"/> 
+					a 
+					la 
+					<choice><orig>corona</orig><reg>Corona</reg></choice> 
+					o 
+					me 
+					<choice><orig>llevaran</orig><reg>llevarán</reg></choice> 
+					a 
+					<choice><orig>valladolid</orig><reg>Valladolid</reg></choice> 
+					por 
+					causa 
+					de 
+					una <lb break="yes"/> 
+					<choice><orig>provision</orig><reg>provisión</reg></choice> 
+					que 
+					<choice><orig>an</orig><reg>han</reg></choice> 
+					<choice><orig>traydo</orig><reg>traído</reg></choice> 
+					las 
+					partes 
+					contrarias 
+					para 
+					que <lb break="yes"/> 
+					me 
+					<choice><orig>Remitan</orig><reg>remitan</reg></choice> 
+					<choice><orig>alla</orig><reg>allá</reg></choice><surplus reason="catchword">
+					<choice><orig><del hand="#PLC1">l</del></orig><reg>--</reg></choice></surplus>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>mas</orig><reg>Mas</reg></choice> 
+					lo 
+					<choice><orig>mas</orig><reg>más</reg></choice> 
+					<choice><orig>zierto</orig><reg>cierto</reg></choice> 
+					<choice><orig>sera</orig><reg>será</reg></choice> 
+					a 
+					la 
+					<choice><orig>corona</orig><reg>Corona</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					me <lb break="yes"/> 
+					<choice><orig>an</orig><reg>han</reg></choice> 
+					de 
+					llevar 
+					<choice><orig>d</orig><reg>de</reg></choice> 
+					<choice><orig>esta</orig><reg>esta</reg></choice> 
+					villa 
+					a 
+					<choice><orig>toledo</orig><reg>Toledo</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					este 
+					vicario 
+					puede <lb break="yes"/> 
+					prender 
+					y 
+					no 
+					soltar
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					en 
+					<choice><orig>toledo</orig><reg>Toledo</reg></choice> 
+					me 
+					<choice><orig>an</orig><reg>han</reg></choice> 
+					de 
+					<choice><orig>sentenziar</orig><reg>sentenciar</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>para</orig><reg>Para</reg></choice> <lb break="yes"/> 
+					todo 
+					esto 
+					<choice><orig>soplico</orig><reg>suplico</reg></choice><note type="linguisticNote" subtype="unstressed_vowels"/> 
+					a 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					que
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					vista 
+					la 
+					presente
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> <lb break="yes"/> 
+					venga 
+					luego
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					<choice><abbr>porq</abbr><expan>porque</expan></choice> 
+					es 
+					<choice><orig>mui</orig><reg>muy</reg></choice> 
+					mucho 
+					menester 
+					para 
+					mis 
+					<choice><orig>ne<lb break="no"/>gozios</orig><reg>negocios</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>que</orig><reg>Que</reg></choice> 
+					me 
+					<choice><orig>toquan</orig><reg>tocan</reg></choice> 
+					en 
+					la 
+					<choice><orig>onRa</orig><reg>honra</reg></choice> 
+					y 
+					<choice><orig>mas</orig><reg>más</reg></choice> 
+					adelante
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> <lb break="yes"/> 
+					como 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					<choice><orig>sabra</orig><reg>sabrá</reg></choice> 
+					en 
+					<choice><orig>biniendo</orig><reg>viniendo</reg></choice> 
+					que 
+					venga 
+					a 
+					verme
+						<choice><orig>ber</orig><reg>ver</reg></choice>
+						me
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					la <lb break="yes"/> 
+					venida 
+					<choice><orig>a</orig><reg>ha</reg></choice> 
+					de 
+					ser 
+					por 
+					<choice><orig>toledo</orig><reg>Toledo</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					pienso 
+					que 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					me <lb break="yes"/> 
+					<choice><orig>allara</orig><reg>hallará</reg></choice> 
+					en 
+					las 
+					casas 
+					<choice><orig>azovispales</orig><reg>arzobispales</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					si 
+					<choice><orig>alli</orig><reg>allí</reg></choice> 
+					no 
+					me 
+					<choice><orig>allare</orig><reg>hallare</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> <lb break="yes"/> 
+					venga 
+					a 
+					<choice><orig>ocaña</orig><reg>Ocaña</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					a 
+					la 
+					<choice><orig>carzel</orig><reg>cárcel</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					derecho 
+					a 
+					verme
+						<choice><orig>ber</orig><reg>ver</reg></choice>
+						me
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					esto 
+					no 
+					lo <lb break="yes"/> 
+					eche 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					en 
+					olvido
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					va 
+					<choice><orig>mui</orig><reg>muy</reg></choice> 
+					mucho 
+					en 
+					la 
+					venida <lb break="yes"/> 
+					de 
+					<choice><orig>vamd</orig><reg>VM</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					como 
+					mi 
+					<choice><orig>ermano</orig><reg>hermano</reg></choice> 
+					<choice><orig><del hand="#PLC1">lo</del></orig><reg/></choice> 
+					<choice><orig><del hand="#PLC1">dy</del></orig><reg/></choice> 
+					lo 
+					<choice><orig>contara</orig><reg>contará</reg></choice> 
+					a 
+					<choice><orig>vamd</orig><reg>VM</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>porque</orig><reg>Porque</reg></choice> <lb break="yes"/> 
+					le 
+					<choice><orig>e</orig><reg>he</reg></choice> 
+					<choice><orig>scrito</orig><reg>escrito</reg></choice> 
+					sobre 
+					ello 
+					y 
+					no 
+					<choice><orig>escrevi</orig><reg>escribí</reg></choice><note type="linguisticNote" subtype="unstressed_vowels"/> 
+					a 
+					<choice><orig>vramd</orig><reg>VM</reg></choice> 
+					por 
+					no 
+					le 
+					dar <lb break="yes"/> 
+					enojo 
+					ni 
+					pena 
+					ni 
+					le 
+					<choice><orig><del hand="#PLC1">p</del></orig><reg/></choice> 
+					<choice><orig>azer</orig><reg>hacer</reg></choice> 
+					poner 
+					en 
+					camino
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>mas</orig><reg>Mas</reg></choice> 
+					pues 
+					que <lb break="yes"/> 
+					<choice><orig>dios</orig><reg>Dios</reg></choice> 
+					lo 
+					quiere 
+					<choice><orig>ansi</orig><reg>así</reg><sic>ansí</sic></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					venga 
+					luego
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					no 
+					<choice><orig>a</orig><reg>ha</reg></choice> 
+					de 
+					<choice><orig>azer</orig><reg>hacer</reg></choice> <lb break="yes"/> 
+					sino 
+					venir 
+					y 
+					tornarse
+						tornar
+						se 
+					luego
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					es 
+					menester 
+					parara <lb break="yes"/> 
+					mis 
+					<choice><orig>negozios</orig><reg>negocios</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					no 
+					<choice><orig>a</orig><reg>ha</reg></choice> 
+					quien 
+					los 
+					acabe 
+					<choice><orig>mijor</orig><reg>mejor</reg></choice><note type="linguisticNote" subtype="unstressed_vowels"/> 
+					<choice><orig>qu</orig><reg>que</reg></choice> 
+					<choice><orig>es</orig><reg>es</reg></choice> <lb break="yes"/> 
+					<choice><orig>vamd</orig><reg>VM</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					con 
+					su 
+					venida 
+					luego 
+					soy 
+					<choice><orig>livre</orig><reg>libre</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					que 
+					por 
+					las 
+					cosas <lb break="yes"/> 
+					de 
+					<choice><orig>aca</orig><reg>acá</reg></choice> 
+					dineros 
+					lo 
+					<choice><orig>an</orig><reg>han</reg></choice> 
+					de 
+					<choice><orig>azer</orig><reg>hacer</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					<choice><orig>aga</orig><reg>haga</reg></choice> 
+					lo 
+					que 
+					mi 
+					<choice><orig><supplied resp="#CSS" reason="abandoned">erma<lb break="no"/>no</supplied></orig><reg>hermano</reg></choice> 
+					le 
+					avisare 
+					y 
+					<choice><orig>tanbien</orig><reg>también</reg></choice> 
+					le 
+					<choice><orig>escrivo</orig><reg>escribo</reg></choice> 
+					que 
+					venga 
+					con 
+					<choice><orig>vamd</orig><reg>VM</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					si 
+					pu<lb break="no"/>diere
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>a</orig><reg>A</reg></choice> 
+					mi 
+					señora 
+					<choice><orig>ana</orig><reg>Ana</reg></choice> 
+					<choice><orig>perez</orig><reg>Pérez</reg></choice> 
+					<choice><orig>veso</orig><reg>beso</reg></choice> 
+					las 
+					manos 
+					<choice><orig>mas</orig><reg>más</reg></choice> 
+					de 
+					mil 
+					<choice><orig>vezes</orig><reg>veces</reg></choice> <lb break="yes"/> 
+					y 
+					a 
+					todos 
+					los 
+					de 
+					casa
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					con 
+					esto 
+					<choice><orig>zeso</orig><reg>ceso</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+				<seg type="closer" subtype="placeName">
+					<choice><orig>d</orig><reg>De</reg></choice> 
+					<choice><orig>esta</orig><reg>esta</reg></choice> 
+					<choice><orig>carzel</orig><reg>cárcel</reg></choice> 
+					<choice><orig>do</orig><reg>donde</reg><sic>do</sic></choice> 
+					quedo <lb break="yes"/> 
+					a 
+					mandado 
+					de 
+					<choice><orig>vasmds</orig><reg>VMs</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc></seg> 
+				<seg type="closer" subtype="date">
+					<choice><orig>Fecha</orig><reg>fecha</reg></choice> 
+					a 
+					<choice><orig>veyte</orig><reg>veinte</reg></choice> 
+					y 
+					ocho 
+					<choice><orig>d</orig><reg>de</reg></choice> 
+					<choice><orig>este</orig><reg>este</reg></choice> 
+					mes 
+					de 
+					<choice><orig>novi<lb break="no"/>enbre</orig><reg>noviembre</reg></choice> 
+					<choice><orig>d</orig><reg>de</reg></choice> 
+					<choice><orig>este</orig><reg>este</reg></choice> 
+					presente 
+					año
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc></seg>
+				</s>
+			</p><lb break="yes"/>
+			<closer>
+				<salute>
+					<choice><orig>a</orig><reg>A</reg></choice> 
+					mandamiento 
+					de 
+					<choice><orig>vasmds</orig><reg>VMs</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc>
+				</salute> <lb break="yes"/> 
+				<signed>
+					<choice><abbr>po</abbr><expan>pero</expan><reg>Pero</reg></choice> 
+					<choice><orig>lopez</orig><reg>López</reg></choice> <lb break="yes"/> 
+					de 
+					la 
+					<choice><orig>caña<lb break="no"/>da</orig><reg>Cañada</reg></choice>
+				</signed>              
+			</closer>                    
+			<postscript><pb n="10v" facs="PS4000_3.JPG"/><lb break="yes"/>
+			<p>
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					mire 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					que 
+					si 
+					no 
+					viene 
+					<figure><figDesc>cruz</figDesc></figure> 
+					yo 
+					no 
+					me 
+					puedo 
+					<choice><orig>livrar</orig><reg>librar</reg></choice> 
+					ni 
+					<choice><orig><supplied resp="#CSS" reason="illegible">aca</supplied></orig><reg>acá</reg></choice> <lb break="yes"/> 
+					en 
+					toda 
+					mi 
+					vida 
+					de 
+					salir 
+					<choice><orig>d</orig><reg>de</reg></choice> 
+					<choice><orig>esta</orig><reg>esta</reg></choice> 
+					<choice><orig>carzel</orig><reg>cárcel</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					<choice><orig>ay</orig><reg>hay</reg></choice> 
+					<choice><orig>mui</orig><reg>muy</reg></choice> 
+					<supplied resp="#CSS" reason="hidden">mucho</supplied>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s><lb break="yes"/> 
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					mire 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					que 
+					la 
+					venida 
+					sea 
+					<choice><orig>mui</orig><reg>muy</reg></choice> 
+					<choice><orig>vrebe</orig><reg>breve</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					ya 
+					yo 
+					no 
+					<supplied resp="#CSS" reason="hidden">puedo</supplied> <lb break="yes"/> 
+					<choice><orig>escrevir</orig><reg>escribir</reg></choice><note type="linguisticNote" subtype="unstressed_vowels"/> 
+					a 
+					<choice><orig>vasmds</orig><reg>VMs</reg></choice> 
+					por 
+					causa 
+					<choice><orig>qu</orig><reg>que</reg></choice> 
+					<choice><orig>estoy</orig><reg>estoy</reg></choice> 
+					con 
+					muchas 
+					prisiones <lb break="yes"/> 
+					y 
+					no 
+					<choice><orig>ay</orig><reg>hay</reg></choice> 
+					mensajeros 
+					si 
+					no 
+					es 
+					de 
+					<choice><orig>zincuenta</orig><reg>cincuenta</reg></choice> 
+					<choice><orig>dias</orig><reg>días</reg></choice> 
+					a 
+					<choice><orig><supplied resp="#CSS" reason="hidden">çincu<lb break="no"/>enta</supplied></orig><reg>cincuenta</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>y</orig><reg>Y</reg></choice> 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					sepa 
+					<choice><abbr>q</abbr><expan>que</expan></choice> 
+					no 
+					puedo 
+					<choice><orig><supplied resp="#CSS" reason="code">escrevir</supplied></orig><reg>escribir</reg></choice><note type="linguisticNote" subtype="unstressed_vowels"/> 
+					<supplied resp="#CSS" reason="code">de</supplied> 
+					<supplied resp="#CSS" reason="code">otro</supplied> 
+					<supplied resp="#CSS" reason="code">modo</supplied> 
+					<supplied resp="#CSS" reason="hidden">por</supplied> <lb break="yes"/> 
+					<supplied resp="#CSS" reason="code">lo</supplied> 
+					que 
+					<choice><orig><supplied resp="#CSS" reason="code">costa</supplied></orig><reg>cuesta</reg></choice><note type="linguisticNote" subtype="verb_paradigm"/> 
+					<choice><orig><supplied resp="#CSS" reason="code">aca</supplied></orig><reg>acá</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					<supplied resp="#CSS" reason="code">porque</supplied> 
+					<supplied resp="#CSS" reason="code">me</supplied> 
+					<supplied resp="#CSS" reason="code">leen</supplied> 
+					<supplied resp="#CSS" reason="code">las</supplied> 
+					<supplied resp="#CSS" reason="code">cartas</supplied> 
+					<supplied resp="#CSS" reason="code">como</supplied> 
+					<supplied resp="#CSS" reason="code">no</supplied> 
+					<supplied resp="#CSS" reason="code"><supplied resp="#CSS" reason="hidden">las</supplied></supplied> <lb break="yes"/> 
+					<supplied resp="#CSS" reason="code">puedo</supplied> 
+					<supplied resp="#CSS" reason="code">dar</supplied> 
+					ni 
+					<supplied resp="#CSS" reason="code">tomar</supplied> 
+					<supplied resp="#CSS" reason="code">si</supplied> 
+					<supplied resp="#CSS" reason="code">no</supplied> 
+					es 
+					por 
+					<supplied resp="#CSS" reason="code">mano</supplied> 
+					<supplied resp="#CSS" reason="code">de</supplied> 
+					<supplied resp="#CSS" reason="code">mis</supplied> 
+					<supplied resp="#CSS" reason="code"><supplied resp="#CSS" reason="hidden">contrarios</supplied></supplied>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s>
+			</p><lb break="yes"/>
+			</postscript>
+			<postscript>
+			<p>
+				<s><lb break="yes"/> <del hand="#PLC1">
+					<choice><orig>y</orig><reg/></choice></del> 
+					<choice><orig><del hand="#PLC1">si</del></orig><reg/></choice> 
+					<choice><orig><del hand="#PLC1">va</del></orig><reg/></choice> 
+					<choice><orig><del hand="#PLC1">md</del></orig><reg/></choice> 
+					<choice><orig><del hand="#PLC1">no</del></orig><reg/></choice> 
+					<choice><orig><del hand="#PLC1">vi</del></orig><reg/></choice> 
+					<choice><orig>vamd</orig><reg>VM</reg></choice> 
+					<choice><orig>aga</orig><reg>haga</reg></choice> 
+					un 
+					aviso 
+					que 
+					mi 
+					<choice><orig>ermano</orig><reg>hermano</reg></choice> 
+					<choice><orig>dira</orig><reg>dirá</reg></choice> 
+					a 
+					<choice><orig>vamd</orig><reg>VM</reg></choice>
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					porque 
+					<supplied resp="#CSS" reason="hidden">me</supplied> <lb break="yes"/> 
+					va 
+					la 
+					vida 
+					en 
+					ello 
+					porque 
+					yo 
+					salga 
+					con 
+					mi 
+					<choice><orig>onRa</orig><reg>honra</reg></choice>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s> 
+				<s>
+					<choice><orig>por</orig><reg>Por</reg></choice> 
+					<supplied resp="#CSS" reason="hidden">eso</supplied> <lb break="yes"/> 
+					va 
+					escrito 
+					de 
+					otra 
+					letra
+					<pc pos="F" msd="Fc"><choice><orig/><reg>,</reg></choice></pc> 
+					como 
+					<choice><orig>esa</orig><reg>ésa</reg></choice> 
+					que 
+					va 
+					<choice><orig>aRiva</orig><reg>arriba</reg></choice> 
+					<supplied resp="#CSS" reason="hidden">escrita</supplied>
+					<pc pos="F" msd="Fp"><choice><orig/><reg>.</reg></choice></pc>
+				</s>
+			</p><lb break="yes"/>
+			</postscript>
+		</body>
+	</text>
+</TEI>
