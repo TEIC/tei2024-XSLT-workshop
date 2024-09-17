@@ -28,7 +28,7 @@ XPath is a syntax used in XSLT, XQuery, and other programming languages to navig
 - What XPath will find the values of the @ref attribute in the \<persName> elements?
 - Which function will find the distinct attribute values? 
 
-## For letters with parts of speech encoded (The following questions only apply to the **es_P54000-TEIP5.xml document**):
+## For letters with parts of speech encoded (The following questions only apply to the **es_P54000-TEIP5.xml** document):
 Write XPath expressions to isolate different parts of speech, working carefully with predicate expressions. 
 - What XPath will find all the nouns (pos='N')?
 - How many of these are there? 
