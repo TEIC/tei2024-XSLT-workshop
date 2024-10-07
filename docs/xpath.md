@@ -1,5 +1,18 @@
-# About XPath
-XPath is a syntax used in XSLT, XQuery, and other programming languages to navigate and calculate information in XML documents. Learning XPath makes programming from XML much easier. 
+# What is XPath
+XPath is a syntax used in XSLT, XQuery, and other X-technologies to navigate through XML documents and generate "returns." For example, it can be used to extract subtrees, manipulate data, or count elements.
+
+# Node Types
+- Document node (addressed with `/` to read the document)
+- Root node (`TEI`)
+- Element nodes (`opener`, `closer`, `persName`)
+- Attribute nodes (`@ref`, `@type`)
+- Text nodes (`text()`)
+
+# XPath Navigation
+- A localization step consists of an axis specification, the node test, and possibly a predicate: `//rs[@type='person']`
+
+![XPath Axes](xpath-axis.gif)
+
 
 # XPath navigation
 - Navigate `child::` and `descendant::` axes
@@ -33,3 +46,8 @@ Write XPath expressions to isolate different parts of speech, working carefully 
 - What XPath will find all the nouns (pos='N')?
 - How many of these are there? 
 - What XPath will find all the nouns which are directly preceded by a determiner (pos='D')?
+
+## Links
+
+* [XPath and XQuery Functions and Operators 3.1](https://www.w3.org/TR/xpath-functions-31/)
+* Wikipedia article ["XPath"](https://es.wikipedia.org/wiki/XPath)
