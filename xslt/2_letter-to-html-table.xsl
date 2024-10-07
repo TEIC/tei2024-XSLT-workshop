@@ -6,7 +6,11 @@
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
     
-    <!-- 2024-08-23 Official workshop output is stored at output/letters-to-table.html  -->
+    <!-- This XSLT contains the solution for creating an HTML table with correspondence metadata from all letters, adding a javascript for dynamic datatables
+    
+    Stored Output: output/letter-to-table.html
+    -->
+    
     
     <xsl:output method="xhtml" html-version="5" indent="yes"></xsl:output>
     
@@ -17,19 +21,27 @@
             <head>
                 <title>Correspondence Metadata Table for All the Letters</title>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                
+                <!-- MS: add Javascript and CSS references for dynamic datatables -->
+                <link rel="stylesheet" href="https://cdn.datatables.net/2.1.4/css/dataTables.dataTables.css" />
+                <script src="js/jquery-3.7.1.js"></script>
+                <script src="https://cdn.datatables.net/2.1.4/js/dataTables.js"></script>
+                <script src="js/ready.js"></script>
             </head>
             <body>
                 <h1>Correspondence Metadata</h1>
-                <table border="1">
-                    <tr>
-                        <th>Sender</th>
-                        <th>Receiver</th>
-                        <th>Place</th>
-                        <th>Date</th>
-                    </tr>
-                    
-               <xsl:apply-templates select="$letters//correspDesc"/>
-             
+                <table border="1" id="myTable" class="display">
+                    <thead>
+                        <tr>
+                            <th>Sender</th>
+                            <th>Receiver</th>
+                            <th>Place</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <xsl:apply-templates select="$letters//correspDesc"/>
+                    </tbody>
                     <!-- ebb: This way works as well! It's another alternative. 
                  Pull-processing relies on the use of the @select attribute to "prune" the source XML tree and process
                  only what we wish to pull from it. 
