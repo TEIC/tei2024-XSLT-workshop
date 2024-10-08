@@ -43,6 +43,7 @@ Two ways
 
 ## Processing methods
 
+* xsl:mode on-no-match="shallow-copy"
 * xsl:apply-templates 
 * xsl:value-of (vs. type-aware xsl:sequence) 
 * xsl:for-each 
