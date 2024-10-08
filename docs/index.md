@@ -48,8 +48,8 @@ to produce simple outputs that curate data and show how these can be used in sim
     * Programming Historian "Transforming Data for Reuse and Re-publication with XML and XSL": <https://programminghistorian.org/en/lessons/transforming-xml-with-xsl> (provides useful command line transformation and context outside of oXygen)
     * Elisa's XPath and XSLT tutorials: <https://newtfire.org/courses/tutorials/#xpath>
     * David Birnbaum's XPath and XSLT tutorials: <http://dh.obdurodon.org/index.xhtml#xpath>
-* XML Slack
-* Software besides oXygen that you can use to write XSLT 
+    * XML Slack
+    * Software besides oXygen that you can use to write XSLT 
     * With caution: Visual Studio Code with XPath/XSLT plugin: <https://marketplace.visualstudio.com/items?itemName=deltaxml.xslt-xpath>
     * How to automatically update your TEI framework in oXygen: <https://github.com/TEIC/oxygen-tei/blob/master/oxygen-tei-plugin.md>    
  
