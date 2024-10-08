@@ -51,4 +51,5 @@ to produce simple outputs that curate data and show how these can be used in sim
 * XML Slack
 * Software besides oXygen that you can use to write XSLT 
     * With caution: Visual Studio Code with XPath/XSLT plugin: <https://marketplace.visualstudio.com/items?itemName=deltaxml.xslt-xpath>
+    * How to automatically update your TEI framework in oXygen: <https://github.com/TEIC/oxygen-tei/blob/master/oxygen-tei-plugin.md>    
  
