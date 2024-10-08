@@ -49,5 +49,6 @@ Write XPath expressions to isolate different parts of speech, working carefully 
 
 ## Links
 
+* [XPath Cheatsheet](https://devhints.io/xpath)
 * [XPath and XQuery Functions and Operators 3.1](https://www.w3.org/TR/xpath-functions-31/)
 * Wikipedia article ["XPath"](https://es.wikipedia.org/wiki/XPath)
