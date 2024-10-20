@@ -6,4 +6,4 @@ Code repository to support the [TEI 2024](https://www.conftool.pro/tei2024/sessi
 * Martina Scholger (Senior Scientist @ Department of Digital Humanities, University of Graz, Austria).
 * Gustavo Riva (Senior Scientist @ University Library, Heidelberg University, Germany)
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13957488.svg)](https://doi.org/10.5281/zenodo.13957488)
