@@ -1,4 +1,4 @@
-# tei2024-XSLT-workshop
+# tei-XSLT-workshop
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13957488.svg)](https://doi.org/10.5281/zenodo.13957488)
 
